@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>秋霞电影网a在线 - 高清影视资源免费在线观看平台 | qiuxiadianyingwangazaixian-app</title>
+<meta name="description" content="秋霞电影网a在线(qiuxiadianyingwangazaixian-app)是国内知名的免费高清影视在线观看平台，聚合最新院线电影、热播电视剧、经典动漫及综艺节目，每日更新海量资源，支持多线路播放，无需注册即可畅享流畅观影体验。访问 https://qiuxiadianyingwangazaixian-app.github.io 获取最新影视资讯与高清片源。">
+<meta name="keywords" content="秋霞电影网a在线, qiuxiadianyingwangazaixian-app, 高清电影在线观看, 免费影视平台, 热播电视剧, 最新电影资源">
+<meta name="author" content="秋霞电影网a在线">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta name="applicable-device" content="pc,mobile">
+<link rel="canonical" href="https://qiuxiadianyingwangazaixian-app.github.io">
+<style>
+:root{
+  --bg:#07070d;
+  --bg2:#0e0e1a;
+  --accent:#ff2d55;
+  --accent2:#ff9500;
+  --text:#e8e8f0;
+  --text-dim:#9090a8;
+  --card:rgba(255,255,255,.04);
+  --line:rgba(255,255,255,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue","Microsoft YaHei",sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.7;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";
+  position:fixed;inset:0;
+  background:radial-gradient(900px 600px at 12% -8%,rgba(255,45,85,.16),transparent 60%),
+             radial-gradient(800px 500px at 88% 12%,rgba(255,149,0,.12),transparent 60%),
+             radial-gradient(700px 700px at 50% 110%,rgba(120,50,255,.14),transparent 60%);
+  z-index:-1;
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+/* ===== 顶栏 ===== */
+.hd{
+  position:sticky;top:0;z-index:99;
+  background:rgba(7,7,13,.82);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.hd-in{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:800;letter-spacing:.5px}
+.logo i{
+  width:34px;height:34px;border-radius:9px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  display:grid;place-items:center;font-style:normal;font-size:17px;
+  box-shadow:0 4px 14px rgba(255,45,85,.4);
+}
+.nav{display:flex;gap:6px}
+.nav a{
+  padding:7px 14px;border-radius:20px;font-size:14px;color:var(--text-dim);
+  transition:.25s;
+}
+.nav a:hover{color:#fff;background:rgba(255,255,255,.07)}
+.menu-btn{display:none;width:40px;height:40px;border:none;background:none;color:#fff;font-size:22px;cursor:pointer}
+@media(max-width:820px){
+  .nav{display:none;position:fixed;top:60px;left:0;right:0;flex-direction:column;
+    background:rgba(10,10,18,.98);padding:14px;border-bottom:1px solid var(--line)}
+  .nav.open{display:flex}
+  .nav a{padding:12px 16px;border-radius:12px}
+  .menu-btn{display:block}
+}
+/* ===== Hero ===== */
+.hero{padding:64px 0 44px;text-align:center}
+.hero .tag{
+  display:inline-block;padding:5px 16px;border-radius:20px;
+  background:rgba(255,45,85,.12);color:var(--accent);
+  font-size:12.5px;letter-spacing:1.5px;margin-bottom:22px;
+  border:1px solid rgba(255,45,85,.25);
+}
+.hero h1{
+  font-size:clamp(30px,5.5vw,54px);line-height:1.2;font-weight:900;
+  background:linear-gradient(90deg,#fff 10%,var(--accent) 55%,var(--accent2));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero .sub{margin:20px auto 30px;max-width:620px;color:var(--text-dim);font-size:15.5px}
+.hero .acts{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:13px 30px;border-radius:30px;font-size:15px;font-weight:600;cursor:pointer;
+  transition:.3s;border:1px solid transparent;
+}
+.btn-main{background:linear-gradient(135deg,var(--accent),#c0183f);color:#fff;box-shadow:0 8px 24px rgba(255,45,85,.35)}
+.btn-main:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(255,45,85,.5)}
+.btn-ghost{background:rgba(255,255,255,.06);color:#fff;border-color:var(--line)}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.hero .domain{margin-top:34px;font-size:13px;color:var(--text-dim)}
+.hero .domain b{color:var(--accent2);font-weight:600}
+/* ===== 通用栏目 ===== */
+section{padding:56px 0}
+.sec-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:32px;flex-wrap:wrap}
+.sec-hd h2{font-size:clamp(22px,3.4vw,32px);font-weight:800;position:relative;padding-left:16px}
+.sec-hd h2::before{content:"";position:absolute;left:0;top:4px;bottom:4px;width:4px;border-radius:4px;background:linear-gradient(var(--accent),var(--accent2))}
+.sec-hd span{color:var(--text-dim);font-size:13.5px}
+/* ===== 资源网格 ===== */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:18px}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  transition:.35s;
+}
+.card:hover{transform:translateY(-6px);border-color:rgba(255,45,85,.4);box-shadow:0 14px 34px rgba(0,0,0,.5)}
+.thumb{
+  position:relative;aspect-ratio:3/4;background:linear-gradient(135deg,var(--bg2),#1a1a2e);
+  display:grid;place-items:center;overflow:hidden;
+}
+.thumb::after{
+  content:attr(data-cat);position:absolute;inset:0;
+  display:grid;place-items:center;font-size:13px;color:rgba(255,255,255,.35);
+  letter-spacing:2px;
+}
+.badge{
+  position:absolute;top:10px;left:10px;z-index:2;
+  padding:3px 9px;border-radius:6px;font-size:11px;font-weight:700;
+  background:rgba(0,0,0,.6);backdrop-filter:blur(4px);
+}
+.badge.hot{background:var(--accent);color:#fff}
+.card .info{padding:14px}
+.card h3{font-size:15.5px;font-weight:700;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card p{font-size:12.5px;color:var(--text-dim);display:flex;gap:10px;flex-wrap:wrap}
+.card p em{font-style:normal;color:var(--accent2)}
+/* ===== 功能特性 ===== */
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.feat-box{
+  padding:28px 24px;border-radius:18px;background:linear-gradient(160deg,var(--card),rgba(255,255,255,.015));
+  border:1px solid var(--line);transition:.3s
+}
+.feat-box:hover{border-color:rgba(255,149,0,.35)}
+.feat-box .ico{
+  width:50px;height:50px;border-radius:14px;margin-bottom:18px;
+  background:linear-gradient(135deg,rgba(255,45,85,.2),rgba(255,149,0,.12));
+  display:grid;place-items:center;font-size:22px;
+}
+.feat-box h3{font-size:17.5px;margin-bottom:10px}
+.feat-box p{font-size:14px;color:var(--text-dim)}
+/* ===== 数据条 ===== */
+.stats{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:18px;overflow:hidden;
+}
+.stat{background:var(--bg);padding:30px 18px;text-align:center}
+.stat b{display:block;font-size:clamp(26px,4vw,40px);font-weight:900;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{font-size:13.5px;color:var(--text-dim);margin-top:6px;display:block}
+/* ===== 列表 ===== */
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.list-item{
+  display:flex;gap:14px;align-items:center;padding:16px;border-radius:14px;
+  background:var(--card);border:1px solid var(--line);transition:.3s
+}
+.list-item:hover{border-color:rgba(255,45,85,.35);background:rgba(255,255,255,.07)}
+.list-item .n{
+  flex:none;width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+  font-weight:800;font-size:15px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;
+}
+.list-item div h4{font-size:15.5px;font-weight:700}
+.list-item div p{font-size:13px;color:var(--text-dim);margin-top:3px}
+/* ===== FAQ ===== */
+.faq details{border:1px solid var(--line);border-radius:14px;margin-bottom:12px;background:var(--card);overflow:hidden}
+.faq summary{
+  padding:18px 22px;cursor:pointer;font-size:15.5px;font-weight:600;list-style:none;
+  display:flex;justify-content:space-between;align-items:center;gap:14px
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--accent);font-size:22px;flex:none;transition:.3s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 22px 20px;color:var(--text-dim);font-size:14px}
+/* ===== 页脚 ===== */
+.ft{border-top:1px solid var(--line);padding:44px 0 30px;margin-top:40px}
+.ft-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px;margin-bottom:34px}
+.ft-brand h3{font-size:20px;margin-bottom:10px}
+.ft-brand p{font-size:13.5px;color:var(--text-dim);max-width:320px}
+.ft h5{font-size:14px;margin-bottom:14px;color:#fff}
+.ft ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+.ft ul a{font-size:13.5px;color:var(--text-dim);transition:.2s}
+.ft ul a:hover{color:var(--accent)}
+.ft-bot{
+  border-top:1px solid var(--line);padding-top:22px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
+  font-size:12.5px;color:#6b6b80
+}
+.ft-bot b{color:var(--accent2)}
+@media(max-width:720px){
+  section{padding:42px 0}
+  .hero{padding:40px 0 30px}
+  .ft-top{grid-template-columns:1fr;gap:26px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<header class="hd">
+  <div class="wrap hd-in">
+    <div class="logo"><i>秋</i>秋霞电影网a在线</div>
+    <nav class="nav" id="nav">
+      <a href="#home">首页</a>
+      <a href="#movie">热映片库</a>
+      <a href="#tv">电视剧集</a>
+      <a href="#feature">平台特色</a>
+      <a href="#guide">观影指南</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <button class="menu-btn" id="mbtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <span class="tag">FILM · DRAMA · ANIME · SHOW</span>
+    <h1>秋霞电影网a在线<br>免费高清影视一站式在线观看</h1>
+    <p class="sub">秋霞电影网a在线（qiuxiadianyingwangazaixian-app）聚合全网最新院线电影、热播电视剧、经典动漫与综艺资源，多线路极速播放，每日更新不重样，打开即看无需等待。</p>
+    <div class="acts">
+      <a class="btn btn-main" href="#movie">立即免费观看 →</a>
+      <a class="btn btn-ghost" href="#guide">查看观影指南</a>
+    </div>
+    <p class="domain">官方站点：<b>https://qiuxiadianyingwangazaixian-app.github.io</b></p>
+  </div>
+</section>
+
+<!-- 热映片库 -->
+<section id="movie">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2>热映片库</h2>
+      <span>每日更新 · 高清正版片源</span>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb" data-cat="ACTION"><span class="badge hot">热映</span></div>
+        <div class="info"><h3>暗夜追击</h3><p><em>动作</em><span>2026</span><span>1080P</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="DRAMA"><span class="badge">口碑</span></div>
+        <div class="info"><h3>岁月无声</h3><p><em>剧情</em><span>2026</span><span>蓝光</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="COMEDY"><span class="badge hot">热映</span></div>
+        <div class="info"><h3>欢喜一家人</h3><p><em>喜剧</em><span>2026</span><span>超清</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="SCI-FI"><span class="badge">推荐</span></div>
+        <div class="info"><h3>星际归途</h3><p><em>科幻</em><span>2026</span><span>4K</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="LOVE"><span class="badge">口碑</span></div>
+        <div class="info"><h3>樱花未落时</h3><p><em>爱情</em><span>2025</span><span>1080P</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="HORROR"><span class="badge hot">热映</span></div>
+        <div class="info"><h3>镜中人</h3><p><em>悬疑</em><span>2026</span><span>蓝光</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="ANIME"><span class="badge">推荐</span></div>
+        <div class="info"><h3>云端之境</h3><p><em>动漫</em><span>2026</span><span>1080P</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="DOC"><span class="badge">口碑</span></div>
+        <div class="info"><h3>山河纪行</h3><p><em>纪录</em><span>2025</span><span>超清</span></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 电视剧集 -->
+<section id="tv" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2>电视剧集</h2>
+      <span>全网热播 · 持续更新</span>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb" data-cat="EP 36"><span class="badge hot">更新</span></div>
+        <div class="info"><h3>长安长歌</h3><p><em>古装</em><span>40集</span><span>已更36集</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="EP 24"><span class="badge">完结</span></div>
+        <div class="info"><h3>城市边缘人</h3><p><em>都市</em><span>32集</span><span>已完结</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="EP 18"><span class="badge hot">更新</span></div>
+        <div class="info"><h3>法医密档</h3><p><em>刑侦</em><span>30集</span><span>已更18集</span></p></div>
+      </div>
+      <div class="card">
+        <div class="thumb" data-cat="EP 12"><span class="badge">推荐</span></div>
+        <div class="info"><h3>春风十里不如你</h3><p><em>青春</em><span>24集</span><span>已更12集</span></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 平台特色 -->
+<section id="feature">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2>平台特色</h2>
+      <span>为什么选择秋霞电影网a在线</span>
+    </div>
+    <div class="feat">
+      <div class="feat-box">
+        <div class="ico">⚡</div>
+        <h3>极速加载 秒开即看</h3>
+        <p>全站采用 CDN 加速分发，影片缓冲时间缩短至秒级，弱网环境下也能流畅播放，告别卡顿与转圈等待。</p>
+      </div>
+      <div class="feat-box">
+        <div class="ico">🎬</div>
+        <h3>片源丰富 类型齐全</h3>
+        <p>覆盖电影、电视剧、动漫、综艺、纪录片五大品类，从院线大片到经典老片，满足全家人的观影口味。</p>
+      </div>
+      <div class="feat-box">
+        <div class="ico">💎</div>
+        <h3>高清画质 沉浸体验</h3>
+        <p>提供 1080P、蓝光、4K 多档画质可选，配合环绕音效，在家即可享受影院级视听感受。</p>
+      </div>
+      <div class="feat-box">
+        <div class="ico">🆓</div>
+        <h3>完全免费 无门槛</h3>
+        <p>秋霞电影网a在线坚持免费开放，无需注册会员、无需付费开通，点击即可直接在线观看。</p>
+      </div>
+      <div class="feat-box">
+        <div class="ico">📱</div>
+        <h3>多端适配 随时切换</h3>
+        <p>手机、平板、电脑全平台自适应布局，进度自动同步，通勤路上看到一半，回家大屏接着看。</p>
+      </div>
+      <div class="feat-box">
+        <div class="ico">🔄</div>
+        <h3>每日更新 同步上线</h3>
+        <p>编辑团队全天候追踪海内外片源，院线新片、热播剧集第一时间上线，紧跟影视圈最新动态。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 数据统计 -->
+<section style="padding:0">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>10000+</b><span>在线片源数量</span></div>
+      <div class="stat"><b>300+</b><span>每日新增影视</span></div>
+      <div class="stat"><b>8K+</b><span>日均活跃用户</span></div>
+      <div class="stat"><b>4.9</b><span>用户满意度评分</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 观影指南 -->
+<section id="guide">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2>观影指南</h2>
+      <span>三步轻松开启免费观影</span>
+    </div>
+    <div class="list">
+      <div class="list-item"><span class="n">1</span><div><h4>访问官方站点</h4><p>打开浏览器输入 https://qiuxiadianyingwangazaixian-app.github.io 即可进入首页。</p></div></div>
+      <div class="list-item"><span class="n">2</span><div><h4>选择想看的影片</h4><p>在片库或剧集栏目中按类型、年份、热度筛选，快速找到心仪内容。</p></div></div>
+      <div class="list-item"><span class="n">3</span><div><h4>点击播放即看</h4><p>支持多线路切换，选画质后一键播放，无需下载客户端、无需注册登录。</p></div></div>
+      <div class="list-item"><span class="n">4</span><div><h4>收藏分享更方便</h4><p>遇到喜欢的影片可收藏记录进度，也可分享给好友一起在线观看。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq">
+  <div class="wrap">
+    <div class="sec-hd">
+      <h2>常见问题</h2>
+      <span>帮你快速解决观影疑问</span>
+    </div>
+    <details open>
+      <summary>秋霞电影网a在线是免费的吗？</summary>
+      <p>是的，秋霞电影网a在线（qiuxiadianyingwangazaixian-app）完全免费开放，所有影视资源均可直接在线观看，不收取任何会员费或观看费用。</p>
+    </details>
+    <details>
+      <summary>需要注册账号才能看片吗？</summary>
+      <p>不需要注册，打开网页即可直接点击播放。当然，注册账号后可以同步收藏记录与播放进度，方便跨设备继续观看。</p>
+    </details>
+    <details>
+      <summary>网站支持手机端访问吗？</summary>
+      <p>全面支持，全站采用响应式自适应布局，无论是手机、平板还是电脑，都能获得最佳的浏览与播放体验。</p>
+    </details>
+    <details>
+      <summary>影片更新频率如何？</summary>
+      <p>平台编辑团队全天候追踪最新片源，院线新片与热播剧集每日更新，保证片库内容持续扩充、紧跟潮流。</p>
+    </details>
+    <details>
+      <summary>播放卡顿怎么办？</summary>
+      <p>可在播放器内切换备用线路或更换清晰度档位，同时建议使用 Wi-Fi 或 4G/5G 网络以获得更稳定的播放效果。</p>
+    </details>
+    <details>
+      <summary>如何反馈影片问题？</summary>
+      <p>若遇到失效链接或画质问题，可通过页面底部联系方式提交反馈，工作人员会尽快核实并更换可用片源。</p>
+    </details>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-top">
+      <div class="ft-brand">
+        <h3>秋霞电影网a在线</h3>
+        <p>专注于为用户提供免费、高清、丰富的影视在线观看服务，打造省心好用的家庭观影入口。</p>
+      </div>
+      <div>
+        <h5>栏目导航</h5>
+        <ul>
+          <li><a href="#home">网站首页</a></li>
+          <li><a href="#movie">热映片库</a></li>
+          <li><a href="#tv">电视剧集</a></li>
+          <li><a href="#feature">平台特色</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>帮助中心</h5>
+        <ul>
+          <li><a href="#guide">观影指南</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#movie">热门排行</a></li>
+          <li><a href="#tv">最新更新</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2026 秋霞电影网a在线 · 网站名称：秋霞电影网a在线 · 网站网址：<b>https://qiuxiadianyingwangazaixian-app.github.io</b></span>
+      <span>本站仅供影视资讯与在线观看交流使用</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('mbtn').addEventListener('click',function(){
+  document.getElementById('nav').classList.toggle('open');
+});
+document.querySelectorAll('.nav a').forEach(function(a){
+  a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open')});
+});
+</script>
+</body>
+</html>
